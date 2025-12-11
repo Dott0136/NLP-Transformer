@@ -1,0 +1,27 @@
+torch==2.2.1+cu118
+torchvision==0.17.1+cu118
+torchaudio==2.2.1+cu118
+--index-url https://download.pytorch.org/whl/cu118
+
+transformers==4.42.4
+datasets==2.20.0
+evaluate==0.4.0
+peft==0.11.1
+accelerate==0.32.1
+bitsandbytes==0.43.1
+scikit-learn
+pandas
+matplotlib
+ipywidgets
+sentencepiece
+nltk
+rouge-score
+faiss-cpu==1.7.4
+tensorboard==2.14.0
+gradio==4.22.0
+pydantic>=2.6,<3.0
+fastapi==0.104.1
+starlette==0.27.0
+numpy==1.26.4
+scipy==1.11.4
+ipykernel
