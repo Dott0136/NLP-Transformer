@@ -1,0 +1,15 @@
+有问题就删了git文件夹重来
+
+git init 初始化git
+
+git status 查看所在文件夹里有什么文件
+
+git add 某个文件夹/.
+（如果要一次性上传多个，就再git add 另一个文件夹，如果要上传多个文件，就git add 文件1全称包括类型 文件2全称包括类型 文件3全称包括类型）
+
+git commit -m "为本次上传起个名"
+
+git remote add origin 粘贴地址(最好是SSH)
+
+git push -u origin main(是master是main，看你的本地gitbash尾缀是什么）
+
